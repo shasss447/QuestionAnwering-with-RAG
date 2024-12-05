@@ -13,6 +13,6 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline for answ
 1. Preprocess PDFs and generate embeddings for text chunks.
 2. Index embeddings in FAISS for semantic retrieval.
 3. Input user query:
-  - Retrieve relevant text chunks.
-  - Pass chunks to the QA model for answer generation.
+   - Retrieve relevant text chunks.
+   - Pass chunks to the QA model for answer generation.
 4. Output context-specific answers.
